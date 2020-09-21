@@ -100,7 +100,11 @@ a:hover,
 a:focus {
 	text-decoration: none;
 	outline: none;
-	color: #fff;
+	color: #f44949;
+}
+
+ a {
+	color: #a0a1b5;
 }
 
 ul,
