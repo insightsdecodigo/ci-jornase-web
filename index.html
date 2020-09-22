@@ -80,7 +80,7 @@
                 <div class="col-lg-8">
                     <div class="cd-timer" id="countdown">
                         <div class="cd-item">
-                            <span>27</span>
+                            <span id="spanId">26</span>
                             <p>Dias</p>
                         </div>
                         <div class="cd-item">
@@ -269,7 +269,7 @@
                                             </div>
                                             <div class="col-lg-4">
                                                 <ul class="sc-widget">
-                                                    <li><i class="fa fa-clock-o"></i> 08:00 am - 10:00 AM</li>
+                                                    <li><i class="fa fa-clock-o"></i> 10:00 am - 12:30 PM</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -297,7 +297,7 @@
                                             </div>
                                             <div class="col-lg-4">
                                                 <ul class="sc-widget">
-                                                    <li><i class="fa fa-clock-o"></i> 08:00 am - 10:00 AM</li>
+                                                    <li><i class="fa fa-clock-o"></i> 10:00 am - 12:30 PM</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -325,7 +325,7 @@
                                             </div>
                                             <div class="col-lg-4">
                                                 <ul class="sc-widget">
-                                                    <li><i class="fa fa-clock-o"></i> 08:00 am - 10:00 AM</li>
+                                                    <li><i class="fa fa-clock-o"></i> 10:00 am - 12:30 PM</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -354,7 +354,7 @@
                                             </div>
                                             <div class="col-lg-4">
                                                 <ul class="sc-widget">
-                                                    <li><i class="fa fa-clock-o"></i> 08:00 am - 10:00 AM</li>
+                                                    <li><i class="fa fa-clock-o"></i> 10:00 am - 12:30 PM</li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -507,3 +507,34 @@
 </body>
 
 </html>
+
+<!-- <script>
+const ready =(fun) => {
+   if(document.ready == 'interactive' || document.readyState =="complete"){
+             var startDate = new Date();
+            var endDate = new Date();
+            endDate.setFullYear(2020, 9, 17);
+
+
+            var start = new Date(startDate);
+            var end = new Date(endDate);
+
+            var diffDate = (end - start) / (1000 * 60 * 60 * 24);
+            var days = Math.round(diffDate);
+           
+            // $("#day").text(days);
+            $("#spanId").text("23");
+            setTimeout(fun, 1);
+          }
+          // we can also implement by event listner
+          else {
+            document.addEventListener("DOMContentLoaded", fun);
+          }
+        }
+ready(() =>  {
+          // This is the functin whitch pass to the ready function
+          console.log("I am ready.")
+          $("#spanId").text("23");
+
+        });         
+</script> -->
