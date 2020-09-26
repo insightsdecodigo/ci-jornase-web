@@ -1,0 +1,15 @@
+{
+    "short_name": "Jornar-se",
+    "name": "Jornar-se",
+    "icons": [
+      {
+        "src": "img/pexels-sk-797643.jpg",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "background_color": "#ffffff"
+  }
