@@ -1,0 +1,36 @@
+
+  .ui.vertical.stripe {
+    padding: 2em 0em;
+  }
+
+  .ui.vertical.stripe .floated.image {
+    clear: both;
+  }
+  .ui.vertical.stripe p {
+    font-size: 1.33em;
+  }
+  .ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0em;
+  }
+
+  .quote.stripe.segment {
+    padding: 0em;
+  }
+  .quote.stripe.segment .grid .column {
+    padding-top: 2em;
+    padding-bottom: 2em;
+  }
+
+  .footer.segment {
+    padding: 5em 0em;
+  }
+
+  .secondary.pointing.menu .toc.item {
+    display: none;
+  }
+
+  .avatar
+  {
+    height: 2%;
+    width: 2%;
+  }
