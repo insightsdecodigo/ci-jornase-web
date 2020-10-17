@@ -95,6 +95,6 @@
 
     $("#cadastro").on('click',function()
     {
-        window.location="https://forms.gle/Ufca2e1H28tas3YD8";
+        window.location="https://forms.gle/SZHF64xk7JHHnRg56";
     });
 })(jQuery);
